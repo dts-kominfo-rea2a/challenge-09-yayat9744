@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #349BD7;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.pemisah{
+  font-size: 2.5rem;
+  color: #DBDBDB;
+}
+.box{
+  height: 10rem;
+  width: 25rem;
+  background-color: #DBDBDB;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+}
+.box-left{
+  width: 50%;
+}
+.box-left img{
+  height: 7rem;
+  width: auto;
+  border-radius: 50%;
+}
+.box-right{
+  width: 50%;
 }
